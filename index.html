@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript DOM & Events</title>
+
+<style>
+body{
+font-family: Arial;
+background:#f4f4f4;
+}
+
+.container{
+padding:30px;
+}
+
+button{
+padding:10px 20px;
+margin:10px 0;
+}
+
+img{
+width:200px;
+display:none;
+margin-top:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 id="title">JavaScript DOM Manipulation</h1>
+
+<p id="text">Click the button to change this text.</p>
+
+<button onclick="changeText()">Change Text</button>
+
+<button onclick="changeColor()">Change Color</button>
+
+<button onclick="toggleImage()">Show / Hide Image</button>
+
+<img id="demoImg" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
